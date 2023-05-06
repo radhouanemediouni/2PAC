@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background: transparent;
+  background-color: transparent;
+  background-image: url(thug.jpg);
+}
+img {
+  max-width: 100%;
+}
+
+#HOME {
+  background-color: aqua;
+  forced-color-adjust: blue;
+}
+#ABOUT {
+  background-color: aqua;
+}
+#WORK {
+  background-color: aqua;
+}
+#RESUME {
+  background-color: aqua;
+}
+#CONTACT {
+  background-color: aqua;
+}
+
+li {
+  display: flex;
+
+  gap: 10px;
+
+  text-align: justify;
+}
+ul > li + h4 {
+  text-align: justify;
+}
+
+#scroll_to_top {
+  height: 26px;
+  width: 50px;
+}
+#favorite styled {
+  display: flex;
+  display: inline;
+  text-align: end;
+}
+#n1 {
+  padding: 5px;
+}
+#n2 {
+  padding: 5px;
+  margin: 50px;
+  color: blue;
+}
+#n3 {
+  padding: 5px;
+  margin: 50px;
+  color: blue;
+}
+#n4 {
+  padding: 5px;
+  margin: 50px;
+  color: blue;
+}
+#N5 {
+  padding: 5px;
+  margin: 50px;
+  color: blue;
+}
+#cntct {
+  padding: 5px;
+  margin: 50px;
+  color: blue;
+}
+#endpage {
+  padding: 5px;
+  margin: 50px;
+  color: orangered;
+}
+#scroll_to_top {
+  align-items: "right";
+}
+#vdo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
