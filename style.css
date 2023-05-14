@@ -27,23 +27,6 @@ img {
   max-width: 100%;
 }
 
-#HOME {
-  background-color: aqua;
-  forced-color-adjust: blue;
-}
-#ABOUT {
-  background-color: aqua;
-}
-#WORK {
-  background-color: aqua;
-}
-#RESUME {
-  background-color: aqua;
-}
-#CONTACT {
-  background-color: aqua;
-}
-
 li {
   display: flex;
 
@@ -67,17 +50,17 @@ ul > li + h4 {
 #n1 {
   padding: 5px;
 }
-#n2 {
+#ABOUT {
   padding: 5px;
   margin: 50px;
   color: blue;
 }
-#n3 {
+#WORK {
   padding: 5px;
   margin: 50px;
   color: blue;
 }
-#n4 {
+#RESUME {
   padding: 5px;
   margin: 50px;
   color: blue;
@@ -87,7 +70,7 @@ ul > li + h4 {
   margin: 50px;
   color: blue;
 }
-#cntct {
+#CONTACT {
   padding: 5px;
   margin: 50px;
   color: blue;
@@ -95,7 +78,7 @@ ul > li + h4 {
 #endpage {
   padding: 5px;
   margin: 50px;
-  color: orangered;
+  color: black;
 }
 #scroll_to_top {
   align-items: "right";
@@ -105,4 +88,12 @@ ul > li + h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#Subscribe {
+  display: flex;
+  padding: 5px;
+  margin: 50px;
+  flex-direction: column;
+  align-items: start;
+  color: black;
 }
